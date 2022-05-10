@@ -6,8 +6,6 @@
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="index, follow" />
-    <meta name="description" content="Sensorium | Telemetri ısı ve nem takip sistemi, aşı ve ilaç dolaplarında, soğuk hava depo ve araçlarında, seralarda ısı ve nem takibi yapmanızı ve istediğiniz uyarıları almanızı sağlayan profesyonel bir sistemdir." />
-	<meta name="keywords" content="ısı takip sistemi, aşı takip sistemi, sıcaklık takip sistemi, ısı kontrol sistemi, sıcaklık kontrol sistemi, web tabanlı karekod uygulaması, aşı dolabı, takip sistemi, karekodlu aşı dolabı, telemetri, ısı nem ölçüm sistemi, aşı dolabı ısı nem ölçüm sistemi, karekodlu ısı nem takibi, hastane ısı takip sistemi, hastane ısı nem takip sistemi, eczane ısı takip sistemi, eczane nem takip sistemi, hastane ısı kontrol sistemi, hastane ısı nem kontrol sistemi, eczane ısı kontrol sistemi, eczane nem kontrol sistemi, web tabanlı ısı nem takip sistemi, web tabanlı ısı nem kontrol sistemi, web tabanlı aşı takip sistemi, web tabanlı aşı kontrol sistemi, kan, kan bankası, kan takibi" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="sensorium.ico" type="image/x-icon" />
   
@@ -67,7 +65,10 @@
 </head>
 <body>
 	
-	<div id="page-background-simple-gradient">
+	
+    <form id="form1" runat="server">
+        <div>
+			<div id="page-background-simple-gradient">
         <div id="page-background-gradient"></div>
     </div>
     <div id="page-background-glare">
@@ -361,10 +362,7 @@ Karekod ile desteklenmiş stok yönetimi de aynı sistemin içindedir.
         });
     </script>
     <div class="cleared"></div>
-    <div class="footer-text">
-        <p>Copyright &copy; 2011 <a href="gizlilik.html">Sensorium</a> Gizlilik Politikası</p>
-        <div class="top-button"><a href="http://www.medyaon.com/" target="_blank">Medyaon</a></div>
-    </div>
+    
 </div></div>
 
 <div class="cleared"></div>
@@ -374,8 +372,6 @@ Karekod ile desteklenmiş stok yönetimi de aynı sistemin içindedir.
 	<div class="cleared"></div>
 	<script type="text/javascript"> Cufon.now(); </script>	
 	</div>
-    <form id="form1" runat="server">
-        <div>
         </div>
     </form>
 </body>

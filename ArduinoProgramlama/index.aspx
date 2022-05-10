@@ -81,7 +81,10 @@
     <title></title>
 </head>
 <body>
-	<div id="page-background-simple-gradient">
+	
+    <form id="form1" runat="server">
+        <div>
+			<div id="page-background-simple-gradient">
         <div id="page-background-gradient"></div>
     </div>
     <div id="page-background-glare">
@@ -492,8 +495,6 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
 	<script type="text/javascript"> Cufon.now(); </script>	
 	</div>
 		</div>
-    <form id="form1" runat="server">
-        <div>
         </div>
     </form>
 </body>
