@@ -10,7 +10,7 @@ namespace WEBAPI1
         public static void Register(HttpConfiguration config)
         {
             // Web API yapılandırması ve hizmetleri
-
+            config.EnableCors();
             // Web API yolları
             config.MapHttpAttributeRoutes();
 

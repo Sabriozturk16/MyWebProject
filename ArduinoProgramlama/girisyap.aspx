@@ -52,22 +52,25 @@
     <title></title>
 </head>
 <body>
-    <div style="margin-top:60px !important">
+   
+    <form id="form1" runat="server">
+        <div>
+             <div style="margin-top:60px !important">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-offset-3 col-lg-6 col-sm-6 col-sm-offset-3">
-<form action="http://panel.sensorium.com.tr:82/Login" class="sign-in" id="loginform" method="post"><input name="__RequestVerificationToken" type="hidden" value="uHr9bcjR2qQO9OMBuJzYRr3IS2c8rOreyWbfIlck7ZH8juxlICoZz_1ceXV4_iq25lSnkSkyVxmuwfZJQvwb2is5mJ0kdYBV2olWk9bKT641" />                        <div style="text-align: center; margin: 1em 0;margin-bottom:30px !important">
+        <input name="__RequestVerificationToken" type="hidden" value="uHr9bcjR2qQO9OMBuJzYRr3IS2c8rOreyWbfIlck7ZH8juxlICoZz_1ceXV4_iq25lSnkSkyVxmuwfZJQvwb2is5mJ0kdYBV2olWk9bKT641" />                        <div style="text-align: center; margin: 1em 0;margin-bottom:30px !important">
                             <img src="Content/Img/logoLogin.png" style="vertical-align: middle;" />
                         </div>
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2 ">
-                                <input class="form-control loginText" data-val="true" data-val-number="The field KurumKod must be a number." data-val-required="Kurum Kodu Alanı Gereklidir!" id="user_code" name="KurumKod" placeholder="Kurum Kodu :" required="True" type="text" value="" />
+                                <input class="form-control loginText" data-val="true" data-val-number="The field KurumKod must be a number." data-val-required="Kurum Kodu Alanı Gereklidir!" id="user_code" name="KurumKod" placeholder="Kurum Kodu :"  type="text" value="" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2">
-                                <input class="form-control loginText" data-val="true" data-val-length="Kullanıcı Adı Alanı 250 Karakteri Aşamaz!" data-val-length-max="250" data-val-required="Kullanıcı Adı Alanı Gereklidir!" id="user_name" name="KullaniciAdi" placeholder="Kullanıcı Adı :" required="True" type="text" value="" />
+                                <input class="form-control loginText" data-val="true" data-val-length="Kullanıcı Adı Alanı 250 Karakteri Aşamaz!" data-val-length-max="250" data-val-required="Kullanıcı Adı Alanı Gereklidir!" id="user_name" name="KullaniciAdi" placeholder="Kullanıcı Adı :"  type="text" value="" />
                             </div>
                         </div>
                             <div class="row">
@@ -116,7 +119,6 @@
 </ul></div>
                                     </div>
                                 </div>
-</form>
                 </div>
             </div>
 
@@ -215,8 +217,6 @@
     <script src="bundles/jqueryval995b?v=dt3XaqpEn4rFA9MkDy2QmR-5tTdUVpSHTuOr3x-Sw981"></script>
 
     <script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.js"></script>
-    <form id="form1" runat="server">
-        <div>
         </div>
     </form>
 </body>
