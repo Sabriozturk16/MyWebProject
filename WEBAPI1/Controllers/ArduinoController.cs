@@ -15,4 +15,19 @@ namespace WEBAPI1.Controllers
             return "Merhaba Web API";
         }
     }
+    public ArduinoController()
+    {
+        var dliste = ent.data.OrderBy(q => q.Data_id).ToList();
+        for (int i = 0; i < dliste.Count; i++)
+        {
+            veriler.Add(new Api
+            {
+                id = dliste[i].cihazId,
+                no = dliste[i].cihaz_seri_no,
+                sicaklik = dliste[i].cihaz_sicaklik,
+                nem = dliste[i].cihaz_nem,             
+                DateOfBirth = dliste[i].Doktor_DOB.ToString()
+            });
+        }
+    }
 }
