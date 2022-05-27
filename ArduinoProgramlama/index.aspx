@@ -118,26 +118,19 @@
 			<div class="sheet-body">
 			<div id="hornav">
 					 <ul class="menu">
-						<li><a href="index-2.html" id="submenu1"><span>ANASAYFA</span></a></li>	
+						<li><a href="index.aspx" id="submenu1"><span>ANASAYFA</span></a></li>	
                 		<li>
                 			<a href="#" id="submenu2"><span>KURUMSAL</span></a>
 							<div><ul class="single">
-                				<li><a href="kurumsal-hakkimizda.html"><span>Hakkımızda</span></a></li>           				
-                				<li><a href="kurumsal-kurumsal-kimlik.html"><span>Kurumsal Kimlik</span></a></li>
-                                <li><a href="kurumsal-belgeler.html"><span>Belgeler</span></a></li>
-                                <li><a href="kurumsal-kariyer.html"><span>Kariyer</span></a></li>
+                				<li><a href="hakkimizda.aspx"><span>Hakkımızda</span></a></li>           				              				
                 				</ul></div>
                 		</li>
 						<li>
                 			<a href="#" id="submenu3"><span>SENSORIUM</span></a>
 							<div><ul>
-							<li><a href="sensorium-sensorium-nedir.html"><span>Sensorium Nedir?</span></a></li>
-							<li><a href="sensorium-genel-ozellikleri.html"><span>Genel Özellikleri</span></a></li>
-                            <li><a href="sensorium-teknik-ozellikler.html"><span>Teknik Özellikleri</span></a></li>
-							<li><a href="sensorium-kullanim-alanlari.html"><span>Kullanım Alanları</span></a></li>
-						
-						      <li><a href="sensorium-kurulum-klavuzu.html"><span>Kurulum Klavuzu</span></a></li>
-						      <!--<li><a href="sensorium-fiyat-listesi.php"><span>Fiyat Listesi</span></a></li>-->
+							<li><a href="cihaznedir.aspx"><span>Sensorium Nedir?</span></a></li>
+							<li><a href="cihazozellikleri.aspx"><span>Genel Özellikleri</span></a></li>
+							<li><a href="sensorium-kullanim-alanlari.html"><span>Kullanım Alanları</span></a></li>									
 						      </ul>
 						    </div>
                 		</li>
@@ -149,19 +142,14 @@
 						<li><a href="#" id="submenu5"><span>İLETİŞİM</span></a>
 						  <div>
 						    <ul>
-						      <li><a href="iletisim-iletisim-bilgileri.html"><span>İletişim Bilgileri</span></a></li>
-						      <li><a href="iletisim-iletisim-formu.html"><span>Kurumsal İletişim Formu</span></a></li>
-						      <!--<li><a href="iletisim-siparis-formu.php"><span>Sipariş Formu</span></a></li>-->
-						      <!--<li><a href="iletisim-ik-formu.php"><span>İK Başvuru Formu</span></a></li>-->
-						      <li><a href="iletisim-duyurular.html"><span>Duyurular</span></a></li>
+						      <li><a href="iletisim.aspx"><span>İletişim Bilgileri</span></a></li>
+						      <li><a href="iletisimformu.aspx"><span>Kurumsal İletişim Formu</span></a></li>						   
+						      <li><a href="duyurular.aspx"><span>Duyurular</span></a></li>
 						      </ul>
 						    </div>
 						  </li>
-                        <li><a class="parent" href="demo-talep-formu.html" id="submenu7"><span>DEMO GİRİŞ</span></a></li>
-                        <!--<li><a href="http://shop.sensorium.com.tr" target="new" class="parent"><span>MAĞAZA</span></a></li>-->
-                        
-                	 </ul>
-                    <!--<div style="width:179px; height:50px; float:right;"><img src="./images/destek_online.png" /></div>-->
+                        <li><a class="parent" href="girisyap.aspx" id="submenu7"><span>DEMO GİRİŞ</span></a></li>                                            
+                	 </ul>                   
 					</div>		
 					<div class="header">
 					<div class="header-jpeg" style="background: url(images/showcase_index.jpg) no-repeat !important;"></div>
@@ -308,7 +296,7 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
 					      <div class="blockcontent-body">
 					        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
 				            </p>
-					        <p> <a href="http://panel.sensorium.com.tr:82/login" style="float: right;" class="csbutton">Sisteme Giriş</a><br />
+					        <p> <a href="girisyap.aspx" style="float: right;" class="csbutton">Sisteme Giriş</a><br />
 					          <!-- /feature-content -->
 				            </p>
 					        <div class="cleared"></div>
@@ -358,11 +346,9 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                 <div class="blockcontent">
                     <div class="blockcontent-body">
                         <ul class="bullet-list" style="margin-left: -5px; font-size: 13px;">
-                            <li><a href="iletisim-iletisim-bilgileri.html">İletişim Bilgileri</a></li>
-                            <li><a href="iletisim-iletisim-formu.html">Kurumsal İletişim Formu</a></li>
-                            <li style="display: none;"><a href="iletisim-siparis-formu.html">Sipariş Formu</a></li>
-                            <li><a href="iletisim-ik-formu.html">İK Başvuru Formu</a></li>
-                            <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+                            <li><a href="iletisim.aspx">İletişim Bilgileri</a></li>
+                            <li><a href="iletisimformu.aspx">Kurumsal İletişim Formu</a></li>
+                            <li><a href="isealımformu.aspx">İK Başvuru Formu</a></li>
                         </ul>
                         <div class="cleared"></div>
 
@@ -382,9 +368,7 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                 <div class="blockcontent">
                     <div class="blockcontent-body">
                         <!-- block-content -->
-                        <p>2003 yılından bu yana kurumsal yazılım pazarının öncü kuruluşlarından Mert Yazılım,
-                            profesyonel ekibinin gücü ile çağdaş ve uluslararası kriterlere uygun çözümler geliştirerek
-                            koşulsuz müşteri memnuniyetini ilke edinerek hizmet vermektedir. </p>
+                        <p>Web Programlama Ödevim </p>
                         <!-- /block-content -->
 
                         <div class="cleared"></div>
@@ -408,10 +392,7 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                     <div class="blockcontent-body">
 
                         <!-- block-content -->
-                        <div class="slideshow client">
-                            <img src="demo/company/01.png" alt="doruktip" width="172" height="128"/>
-                            <img src="demo/company/02.png" alt="delta_hospital" width="172" height="128"/>
-                            <img src="demo/company/03.png" alt="onur_eczanesi" width="172" height="128"/>
+                        <div class="slideshow client">                  
                         </div>
                         <!-- /block-content -->
 
@@ -427,7 +408,7 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
         <div class="block divider-r" style="width: 22%">
             <div class="block-body">
                 <div class="blockheader">
-                    <div class="t"><strong>444 3 468(IoT)</strong> </div>
+                    <div class="t"><strong>0551 111 37 13(IoT)</strong> </div>
                 </div>
 
                 <div class="blockcontent">
@@ -437,10 +418,10 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                         <!-- block-content -->
                         <img src="images/footer-logo.png" alt="kozuka"/><br/>
                         <p>
-                            <span>kötekli</span><br/>
-                            <span>Tutku Cad. No: 10</span><br/>
-                            <span>Nilüfer / BURSA</span><br/>
-                            <span><a href="#">info@sensorium.com.tr</a></span><br/>
+                            <span>kötekli mh</span><br/>
+                            <span>232. sokak No:94</span><br/>
+                            <span>Menteşe/ Muğla</span><br/>
+                            <span><a href="#">sabriozturk74@icloud.com</a></span><br/>
                         </p>
 
                         <br/>
@@ -474,15 +455,14 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                     "message": "Bu web sitesi size en iyi deneyimi sunabilmek icin çerezleri kullanır.",
                     "dismiss": "Anladım!",
                     "link": "Gizlilik Politikası",
-                    "href": "https://sensorium.com.tr/gizlilik"
+                    "href": ""
                 }
             })
         });
     </script>
     <div class="cleared"></div>
     <div class="footer-text">
-        <p>Copyright &copy; 2011 <a href="gizlilik.html">Sensorium</a> Gizlilik Politikası</p>
-        <div class="top-button"><a href="http://www.medyaon.com/" target="_blank">Medyaon</a></div>
+        <p>Sabri Öztürk &copy; 2022  Gizlilik Politikası</p>
     </div>
 </div></div>
 

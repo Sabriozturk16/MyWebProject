@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cihazozellerikleri.aspx.cs" Inherits="ArduinoProgramlama.cihazozellerikleri" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cihazozellikleri.aspx.cs" Inherits="ArduinoProgramlama.cihazozellerikleri" %>
 
 <!DOCTYPE html>
 

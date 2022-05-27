@@ -156,9 +156,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cihaznedir.aspx" />
-    <Content Include="cihazozellerikleri.aspx" />
+    <Content Include="cihazozellikleri.aspx" />
     <Content Include="duyurular.aspx" />
     <Content Include="girisyap.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="iletisimformu.aspx" />
@@ -195,12 +196,12 @@
     <Compile Include="cihaznedir.aspx.designer.cs">
       <DependentUpon>cihaznedir.aspx</DependentUpon>
     </Compile>
-    <Compile Include="cihazozellerikleri.aspx.cs">
-      <DependentUpon>cihazozellerikleri.aspx</DependentUpon>
+    <Compile Include="cihazozellikleri.aspx.cs">
+      <DependentUpon>cihazozellikleri.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="cihazozellerikleri.aspx.designer.cs">
-      <DependentUpon>cihazozellerikleri.aspx</DependentUpon>
+    <Compile Include="cihazozellikleri.aspx.designer.cs">
+      <DependentUpon>cihazozellikleri.aspx</DependentUpon>
     </Compile>
     <Compile Include="duyurular.aspx.cs">
       <DependentUpon>duyurular.aspx</DependentUpon>
@@ -215,6 +216,9 @@
     </Compile>
     <Compile Include="girisyap.aspx.designer.cs">
       <DependentUpon>girisyap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="hakkimizda.aspx.cs">
       <DependentUpon>hakkimizda.aspx</DependentUpon>

@@ -65,17 +65,22 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2 ">
-                                <input class="form-control loginText" data-val="true" data-val-number="The field KurumKod must be a number." data-val-required="Kurum Kodu Alanı Gereklidir!" id="user_code" name="KurumKod" placeholder="Kurum Kodu :"  type="text" value="" />
+                                &nbsp;<asp:DropDownList class="form-control loginText" ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                                    <asp:ListItem>Seçiniz</asp:ListItem>
+                                    <asp:ListItem Value="0">Admin</asp:ListItem>
+                                    <asp:ListItem Value="1">Teknisyen</asp:ListItem>
+                                    <asp:ListItem Value="2">Firma Yetkilisi</asp:ListItem>
+                                </asp:DropDownList>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2">
-                                <input class="form-control loginText" data-val="true" data-val-length="Kullanıcı Adı Alanı 250 Karakteri Aşamaz!" data-val-length-max="250" data-val-required="Kullanıcı Adı Alanı Gereklidir!" id="user_name" name="KullaniciAdi" placeholder="Kullanıcı Adı :"  type="text" value="" />
+                                <asp:TextBox class="form-control loginText" placeholder="Kullanıcı Adı :" ID="TextBox1" runat="server"></asp:TextBox>
                             </div>
                         </div>
                             <div class="row">
                                 <div class="col-lg-8 col-lg-offset-2">
-                                    <input class="form-control loginText" data-val="true" data-val-length="Kullanıcı Parolası Alanı 250 Karakteri Aşamaz!" data-val-length-max="250" data-val-required="Kullanıcı Parolası Alanı Gereklidir!" id="password" name="Parola" placeholder="Parola :" style="width:100%" type="password" />
+                                    <asp:TextBox class="form-control loginText" placeholder="Parola :" ID="TextBox2" runat="server"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="row">
@@ -97,18 +102,13 @@
                                     </div>
                                         <div class="row">
                                             <div class="col-lg-12 col-sm-12">
-                                                <button style="min-height:40px; margin-left:10px; margin-top:5px; display:block !important; width:100% !important; letter-spacing: 2px; font-family:'Century Gothic'; font-size:20px;" id="btnOldSite"
-                                                        class="btn btn-block btn-primary">
-                                                    Eski Site (2016 Öncesi)
-                                                </button>
                                             </div>
                                         </div>
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="button" style="display:block !important; margin-left:10px; width:100% !important; min-height:42px; margin-top:5px; letter-spacing: 2px;font-family:'Century Gothic'; font-size:20px;" id="btnIForgot"
                                                     class="btn btn-block btn-info">
-                                                Şifremi Unuttum
-                                            </button>
+                                                Şifremi Unuttum</button>
                                         </div>
                                     </div>
                                 </div>
